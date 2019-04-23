@@ -6,11 +6,11 @@ class Kid
   
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethod
-   
  
   attr_accessor :name
  
   def initialize(name)
     @name = name
   end
+  
 end
